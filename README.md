@@ -40,7 +40,8 @@ Ejecutar el script:
 
 python bruteforce_btc.py
 
-📂 Estructura del Código
+## 📂 Estructura del Código
+
 Lectura de palabras BIP-39: Lee las palabras del archivo bip39words.txt.
 Inicialización de la base de datos: Crea una base de datos SQLite y las tablas necesarias para almacenar mnemónicos y resultados.
 Generación de mnemónicos aleatorios: Genera combinaciones únicas de 24 palabras BIP-39.
@@ -50,7 +51,8 @@ Consulta el saldo de la dirección utilizando una API pública.
 Guarda los resultados en la base de datos.
 Elimina la billetera temporal.
 
-📝 Detalles del Código
+## 📝 Detalles del Código
+
 Función read_bip39_words(filename)
 Lee y devuelve las palabras BIP-39 desde un archivo de texto.
 
@@ -81,7 +83,8 @@ El script:
 Inicializa la base de datos.
 Genera mnemónicos aleatorios y los procesa indefinidamente.
 Almacena los resultados en la base de datos y elimina las billeteras temporales.
-🚧 Contribuciones
+
+## 🚧 Contribuciones
 Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para sugerir mejoras o solucionar problemas.
 
 📜 Licencia
