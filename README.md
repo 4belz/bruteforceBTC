@@ -53,7 +53,7 @@ Elimina la billetera temporal.
 
 ## 📝 Detalles del Código
 
-Función *read_bip39_words(filename)*
+Función **read_bip39_words(filename)**
 Lee y devuelve las palabras BIP-39 desde un archivo de texto.
 
 Función init_db(db_filename)
