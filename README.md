@@ -22,27 +22,24 @@ Este script Python realiza las siguientes tareas:
 ### Pasos para Ejecutar el Script
 
 1. **Clonar el repositorio**:
-   ```sh
+  
    git clone https://github.com/4belz/bruteforceBTC.git
    cd bruteforceBTC
 Instalar las dependencias:
 
-sh
-Copiar código
 pip install -r requirements.txt
-Crear el archivo bip39words.txt con las palabras BIP-39 (puedes encontrar una lista en BIP-39 English):
+Crear el archivo bip39words.txt con las palabras BIP-39 (puedes encontrar una lista en BIP-39 Engli):
 
 plaintext
-Copiar código
+
 abandon
 ability
 able
 ...
 Ejecutar el script:
 
-sh
-Copiar código
 python bruteforce_btc.py
+
 📂 Estructura del Código
 Lectura de palabras BIP-39: Lee las palabras del archivo bip39words.txt.
 Inicialización de la base de datos: Crea una base de datos SQLite y las tablas necesarias para almacenar mnemónicos y resultados.
@@ -52,6 +49,7 @@ Genera una clave privada y una dirección de Bitcoin.
 Consulta el saldo de la dirección utilizando una API pública.
 Guarda los resultados en la base de datos.
 Elimina la billetera temporal.
+
 📝 Detalles del Código
 Función read_bip39_words(filename)
 Lee y devuelve las palabras BIP-39 desde un archivo de texto.
