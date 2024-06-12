@@ -53,7 +53,7 @@ Elimina la billetera temporal.
 
 ## 📝 Detalles del Código
 
-Función read_bip39_words(filename)
+Función *read_bip39_words(filename)*
 Lee y devuelve las palabras BIP-39 desde un archivo de texto.
 
 Función init_db(db_filename)
@@ -64,13 +64,13 @@ claves_procesadas: para almacenar mnemónicos, direcciones, claves privadas y sa
 Función read_tried_mnemonics(conn)
 Lee y devuelve un conjunto de mnemónicos que ya han sido probados.
 
-Función save_tried_mnemonic(conn, mnemonic)
+* Función save_tried_mnemonic(conn, mnemonic)
 Guarda un mnemónico en la base de datos para evitar que sea probado nuevamente.
 
-Función generate_and_test_random_mnemonic(words_filename, conn)
+* Función generate_and_test_random_mnemonic(words_filename, conn)
 Genera y retorna mnemónicos aleatorios únicos de 24 palabras.
 
-Función procesar_grupo_mnemonico(id, mnemonic_words, conn)
+* Función procesar_grupo_mnemonico(id, mnemonic_words, conn)
 Procesa un mnemónico:
 
 Genera una clave privada.
@@ -88,7 +88,7 @@ Almacena los resultados en la base de datos y elimina las billeteras temporales.
 
 Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para sugerir mejoras o solucionar problemas.
 
-# 📜 Licencia
+## 📜 Licencia
 
 Este proyecto está licenciado bajo la MIT License.
 
