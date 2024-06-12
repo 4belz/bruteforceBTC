@@ -25,18 +25,18 @@ Este script Python realiza las siguientes tareas:
   
    git clone https://github.com/4belz/bruteforceBTC.git
    cd bruteforceBTC
-Instalar las dependencias:
+  Instalar las dependencias:
 
-pip install -r requirements.txt
-Crear el archivo bip39words.txt con las palabras BIP-39 (puedes encontrar una lista en BIP-39 Engli):
+  pip install -r requirements.txt
+  Crear el archivo bip39words.txt con las palabras BIP-39 (puedes encontrar una lista en BIP-39 Engli):
 
-plaintext
-
-abandon
-ability
-able
-...
-Ejecutar el script:
+  plaintext
+  
+  abandon
+  ability
+  able
+  ...
+  Ejecutar el script:
 
 python bruteforce_btc.py
 
