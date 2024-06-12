@@ -85,9 +85,11 @@ Genera mnemónicos aleatorios y los procesa indefinidamente.
 Almacena los resultados en la base de datos y elimina las billeteras temporales.
 
 ## 🚧 Contribuciones
+
 Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para sugerir mejoras o solucionar problemas.
 
-📜 Licencia
+# 📜 Licencia
+
 Este proyecto está licenciado bajo la MIT License.
 
 ¡Gracias por usar BruteforceBTC! 🚀🔓
